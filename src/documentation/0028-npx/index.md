@@ -28,7 +28,7 @@ This is pretty useful, mostly because:
 1. you don't need to install anything
 2. you can run different versions of the same command, using the syntax @version
 
-A typical demonstration of using `npx` is through the `cowsay` command. `cowsay` will print a cow saying what you wrote in the command. For example:
+A typical demonstration of using `npx` is through the `cowsay` command, which will print a cow saying what you wrote in the command. If you have `cowsave` globally installed from npm previously, `cowsay "Hello"` will print
 
 `cowsay "Hello"` will print
 
@@ -43,7 +43,7 @@ A typical demonstration of using `npx` is through the `cowsay` command. `cowsay`
                 ||     ||
 ```
 
-if you have the `cowsay` command globally installed from npm previously. Otherwise you'll get an error when you try to run the command.
+If you don't have `cowsay` installed globally, you'll get an error when you try to run the command.
 
 `npx` allows you to run that npm command without having it installed locally:
 
